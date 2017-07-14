@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@mipmap/beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_makanan"
+            android:icon="@mipmap/makanan1"
+            android:title="Makanan" />
+        <item
+            android:id="@+id/nav_minuman"
+            android:icon="@mipmap/minuman1"
+            android:title="Minuman" />
+        <item
+            android:id="@+id/nav_pesanan"
+            android:icon="@mipmap/transaksi1"
+            android:title="Pesanan" />
+    </group>
+
+    <item
+        android:id="@+id/pengaturan"
+        android:icon="@mipmap/pengaturan"
+        android:title="Pengaturan">
+        <menu>
+            <item
+                android:id="@+id/server"
+                android:icon="@mipmap/server"
+                android:title="Server URL" />
+
+        </menu>
+    </item>
+
+</menu>
